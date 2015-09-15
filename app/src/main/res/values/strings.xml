@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CSHelper</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_fragment_manager">FragmentManager</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="title_activity_data_container">DataContainerActivity</string>
+    <string name="title_activity_programming_languages">ProgrammingLanguagesActivity</string>
+    <string name="title_activity_time_complexity">TimeComplexityActivity</string>
+    <string name="title_activity_unix_cheat_sheet">UnixCheatSheetActivity</string>
+    <string name="title_activity_sql_cheat_sheet">SqlCheatSheetActivity</string>
+</resources>

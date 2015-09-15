@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dev.cromer.jason.cshelper"
+    android:configChanges="keyboardHidden|orientation|screenSize"
+    android:screenOrientation="portrait"
+    android:windowSoftInputMode="stateHidden" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/cs_helper_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Activities.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Logic.CustomFragmentManager"
+            android:label="@string/title_activity_fragment_manager" >
+        </activity>
+        <activity android:name=".Activities.AsciiChartActivity" >
+        </activity>
+        <activity
+            android:name=".Activities.DataContainerActivity"
+            android:label="@string/title_activity_data_container" >
+        </activity>
+        <activity
+            android:name=".Activities.ProgrammingLanguagesActivity"
+            android:label="@string/title_activity_programming_languages" >
+        </activity>
+        <activity
+            android:name=".Activities.TimeComplexityActivity"
+            android:label="@string/title_activity_time_complexity" >
+        </activity>
+        <activity
+            android:name=".Activities.UnixCheatSheetActivity"
+            android:label="@string/title_activity_unix_cheat_sheet" >
+        </activity>
+        <activity
+            android:name=".Activities.SqlCheatSheetActivity"
+            android:label="@string/title_activity_sql_cheat_sheet" >
+        </activity>
+    </application>
+
+</manifest>

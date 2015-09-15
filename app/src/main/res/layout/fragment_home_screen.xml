@@ -1,0 +1,22 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.dev.cromer.jason.cshelper.Activities.AsciiChartActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121">
+
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gridView"
+        android:columnWidth="110dp"
+        android:numColumns="2"
+        android:verticalSpacing="20dp"
+        android:stretchMode="spacingWidthUniform"
+        android:layout_marginTop="30dp"
+        android:gravity="center">
+    </GridView>
+
+</RelativeLayout>
